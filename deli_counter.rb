@@ -23,7 +23,7 @@ def now_serving(array, number)
       if client =! nil
         puts "Now serving #{client}."
       else
-
+        puts "The queue is empty!"
       end
 
     end
