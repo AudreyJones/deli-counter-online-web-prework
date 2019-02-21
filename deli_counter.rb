@@ -21,7 +21,7 @@ def now_serving(array, number)
   if array.length > 0
   count = 0
     while count <= number
-      if array[count] =! nil
+      if array[count] != nil
         puts "Now serving #{array[count]}."
 
 binding.pry
