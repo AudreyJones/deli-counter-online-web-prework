@@ -35,3 +35,4 @@ def now_serving(array, number)
   end
 end
 array = ["Alex", "Audrey", "Alex"]
+now_serving(array)
