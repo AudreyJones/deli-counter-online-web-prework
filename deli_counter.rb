@@ -27,8 +27,10 @@ def now_serving(array, number)
         puts "The queue is empty!"
       end
     end
-
-    end
+  else
+    puts "The queue is empty!"
+  end
+end
 
 
     puts "Currently serving #{array[0]}."
