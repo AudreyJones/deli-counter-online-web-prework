@@ -19,6 +19,12 @@ end
 
 def now_serving(array, number)
   if array.length > 0
+
+    array.each do ||
+
+    end
+
+
     puts "Currently serving #{array[0]}."
     array.shift
   else
