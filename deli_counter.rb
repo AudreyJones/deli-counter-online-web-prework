@@ -19,6 +19,7 @@ end
 
 def now_serving(array, number)
   if array.length > 0
+  count = 0
     while array <= number
       do |client|
       if client =! nil
