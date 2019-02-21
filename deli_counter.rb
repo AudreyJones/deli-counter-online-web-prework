@@ -34,3 +34,4 @@ def now_serving(array, number)
     puts "There is nobody waiting to be served!"
   end
 end
+array = ["Alex", "Audrey", "Alex"]
