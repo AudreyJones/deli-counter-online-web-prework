@@ -19,7 +19,7 @@ end
 
 def now_serving(array, number)
   if array.length > 0
-    while array < number
+    while array <= number
       do |client|
       if client =! nil
         puts "Now serving #{client}."
