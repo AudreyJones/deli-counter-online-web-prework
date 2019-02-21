@@ -26,7 +26,7 @@ def now_serving(array, number)
       else
         puts "The queue is empty!"
       end
-      counter += 1
+      count += 1
     end
   else
     puts "The queue is empty!"
