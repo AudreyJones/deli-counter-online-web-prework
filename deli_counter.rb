@@ -24,7 +24,7 @@ def now_serving(array, number)
       if array[count] != nil
         puts "Now serving #{array[count]}."
 
-binding.pry
+#binding.pry
       else
         puts "The queue is empty!"
       end
