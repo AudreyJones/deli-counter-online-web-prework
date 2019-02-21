@@ -17,7 +17,7 @@ def take_a_number(array, name)
 end
 #binding.pry
 
-def now_serving(array)
+def now_serving(array, number)
   if array.length > 0
     puts "Currently serving #{array[0]}."
     array.shift
