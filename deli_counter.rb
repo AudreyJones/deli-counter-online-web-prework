@@ -21,8 +21,8 @@ def now_serving(array, number)
   if array.length > 0
   count = 0
     while count <= number
-      if client =! nil
-        puts "Now serving #{client}."
+      if array[count] =! nil
+        puts "Now serving #{array[count]}."
       else
         puts "The queue is empty!"
       end
