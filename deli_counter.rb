@@ -28,14 +28,8 @@ def now_serving(array, number)
       end
       count += 1
     end
-  else
-    puts "The queue is empty!"
-  end
-end
-
-
-    puts "Currently serving #{array[0]}."
-    array.shift
+    # puts "Currently serving #{array[0]}."
+    # array.shift
   else
     puts "There is nobody waiting to be served!"
   end
