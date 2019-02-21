@@ -20,13 +20,13 @@ end
 def now_serving(array, number)
   if array.length > 0
   count = 0
-    while array <= number
-      do |client|
+    while count <= number
       if client =! nil
         puts "Now serving #{client}."
       else
         puts "The queue is empty!"
       end
+    end
 
     end
 
