@@ -15,7 +15,7 @@ def take_a_number(array, name)
   array.push(name)
   puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
 end
-#binding.pry
+#
 
 def now_serving(array, number)
   if array.length > 0
@@ -23,6 +23,8 @@ def now_serving(array, number)
     while count <= number
       if array[count] =! nil
         puts "Now serving #{array[count]}."
+
+binding.pry
       else
         puts "The queue is empty!"
       end
