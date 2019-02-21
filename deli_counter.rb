@@ -20,7 +20,7 @@ end
 def now_serving(array, number)
   if array.length > 0
     array.each do |client|
-      if 
+      if
 
       else
 
